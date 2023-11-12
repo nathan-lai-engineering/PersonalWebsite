@@ -1,15 +1,39 @@
-﻿body {
-    overflow:hidden;
+﻿html, body {
+    overflow: hidden;
+    height: 100%;
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 
 .containerright {
-    float:right;
-    justify-self: start;
+    flex: auto;
     overflow:hidden;
+    position:relative;
+}
+
+.container {
+    display:flex;
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    flex-wrap: wrap;
+}
+
+.textcontainer{
+    margin: 5%;
 }
 
 img {
-    height:100%;
-    float:right;
+    margin: 0 0 0 auto;
+    padding: 0px;
+    height: 100vh;
+    width: auto;
+    align-self:flex-end;
+    float: right;
     overflow: hidden;
+    object-fit:cover;
 }
