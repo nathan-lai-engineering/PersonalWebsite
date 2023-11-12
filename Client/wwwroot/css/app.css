@@ -27,9 +27,30 @@ li {
     color: floralwhite;
 }
 
-row {
+img {
+    object-fit: cover;
+    width: 80%;
+    align-self: center;
+}
+
+.flexrow {
     display: flex;
     flex-direction: row;
+}
+
+.flex {
+    display: inline-flex;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    text-align: right;
+    width: 50%;
 }
 
 a, .btn-link {
