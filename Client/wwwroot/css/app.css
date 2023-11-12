@@ -51,6 +51,11 @@ img {
     float: right;
     text-align: right;
     width: 50%;
+    align-self: center;
+}
+
+.line {
+    border-top: 1px solid floralwhite;
 }
 
 a, .btn-link {

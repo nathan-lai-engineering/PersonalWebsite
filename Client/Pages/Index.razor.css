@@ -1,19 +1,15 @@
-﻿html, body {
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+﻿body {
+    overflow:hidden;
 }
 
-body-image {
+.containerright {
+    float:right;
+    justify-self: start;
     overflow:hidden;
-    height:100%;
 }
 
 img {
-    height: 100%;
-    width: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    float: right;
+    height:100%;
+    float:right;
+    overflow: hidden;
 }
