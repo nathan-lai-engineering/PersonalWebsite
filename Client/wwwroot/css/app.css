@@ -6,7 +6,7 @@ html, body {
 }
 
 h1, h1:focus {
-    color:floralwhite;
+    color: floralwhite;
     outline: none;
 }
 
@@ -14,8 +14,22 @@ h2 {
     color: lightsteelblue;
 }
 
+h3 {
+    color: floralwhite;
+}
+
 p {
     color: lightgray;
+    line-height: 1.5;
+}
+
+li {
+    color: floralwhite;
+}
+
+row {
+    display: flex;
+    flex-direction: row;
 }
 
 a, .btn-link {
