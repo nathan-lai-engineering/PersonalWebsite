@@ -36,6 +36,7 @@ img {
 .flexrow {
     display: flex;
     flex-direction: row;
+    outline: 1px solid white;
 }
 
 .flex {
@@ -51,6 +52,7 @@ img {
     align-self:center;
     align-content:center;
     text-align:center;
+    margin: auto;
 }
 
 .right {
