@@ -47,6 +47,12 @@ img {
     width: 50%;
 }
 
+.middle {
+    align-self:center;
+    align-content:center;
+    text-align:center;
+}
+
 .right {
     float: right;
     text-align: right;
@@ -56,6 +62,11 @@ img {
 
 .line {
     border-top: 1px solid floralwhite;
+}
+
+.textcontainer {
+    margin: 5%;
+
 }
 
 a, .btn-link {

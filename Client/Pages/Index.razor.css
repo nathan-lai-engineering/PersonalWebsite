@@ -6,12 +6,6 @@
     padding: 0px;
 }
 
-.containerright {
-    flex: auto;
-    overflow:hidden;
-    position:relative;
-}
-
 .container {
     display:flex;
     position:fixed;
@@ -21,10 +15,6 @@
     margin:0;
     padding:0;
     flex-wrap: wrap;
-}
-
-.textcontainer{
-    margin: 5%;
 }
 
 img {
