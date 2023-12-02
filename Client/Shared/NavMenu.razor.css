@@ -8,6 +8,7 @@
 
 .navbar-brand {
     font-size: 2rem;
+    text-align: center;
 }
 
 .oi {
@@ -61,5 +62,6 @@
 }
 
 img {
-    border-radius: 50%
+    border-radius: 50%;
+    justify-self: center;
 }
